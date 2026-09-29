@@ -1,0 +1,14 @@
+CREATE DATABASE amber;
+
+USE amber;
+
+CREATE TABLE found (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    item_name VARCHAR(100) NOT NULL,
+    description VARCHAR(255),
+    location VARCHAR(100),
+    date_reporting DATE,
+    status VARCHAR(20),
+    reporter_name VARCHAR(100),
+    contact VARCHAR(20)
+);
